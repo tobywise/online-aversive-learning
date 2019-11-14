@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <title>Spaceship game</title>
+         <meta charset="utf-8">
+         <link href="src/spaceship.css" rel="stylesheet" type="text/css"></link>
+     </head>
+     <body>
+         <!--<script src="build/project.bundle.js" charset="utf-8"></script>-->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+         <script src="https://browser.sentry-cdn.com/4.4.1/bundle.min.js" crossorigin="anonymous"></script>
+         <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-auth.js"></script>
+         <script>
+            // Initialize Firebase
+            var config = {
+            apiKey: "AIzaSyDf9ZvBdhn7vEV2ZVkUe5aFrCvJy1EvSac",
+            authDomain: "onlinetesting-96dd3.firebaseapp.com",
+            databaseURL: "https://onlinetesting-96dd3.firebaseio.com",
+            projectId: "onlinetesting-96dd3",
+            storageBucket: "onlinetesting-96dd3.appspot.com",
+            messagingSenderId: "855612276612"
+            };
+            firebase.initializeApp(config);
+        </script>
+         <script type="module" src="src/index.js" charset="utf-8"></script>
+        <div class="form" id="mainSection">
+            <header class="form__header" id="header"><h2 id="header_title" class="form__title"></h2></header>
+            <section class="mainInstructions" id="consent"></section>
+        </div>
+     </body>
+ </html>
