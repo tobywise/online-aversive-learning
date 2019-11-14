@@ -20,19 +20,26 @@ The majority of the analysis reported in the paper is run in a series of Jupyter
 
 There are 4 notebooks, each of which runs a specific section of the analysis pipeline and produces all the figures etc. associated with it.
 
-### 1. Task data preprocessing (`preprocessing.ipynb`)
+### 1. Task data preprocessing
+
+`preprocessing.ipynb`
 
 This data takes the raw data from the task and extracts the behavioural variables of interest. This notebook is parameterised through [Papermill](https://papermill.readthedocs.io/) and is run for each subject individually. The script to run this is in the `code` directory, and the output notebooks for every subject are provided in the `/notebooks/preprocessing` directory.
 
-### 2. Questionnaire analysis (`questionnaire_analysis.ipynb`)
+### 2. Questionnaire analysis
+
+`questionnaire_analysis.ipynb`
 
 This notebook processes our questionnaire measures, and calculates scores on three transdiagnostic factors.
 
-### 3. Behavioural analyses and model fitting (`behavioural_analysis.ipynb`)
+### 3. Behavioural analyses and model fitting
+`behavioural_analysis.ipynb`
 
 This notebooks performs analyses looking at how attention affects learning.
 
-### 4. Analyses relating behaviour to psychopathology (`psychopathology_analysis.ipynb`)
+### 4. Analyses relating behaviour to psychopathology
+
+`psychopathology_analysis.ipynb`
 
 This notebook runs regression analyses examining relationships between questionnaire measures and behavioural variables.
 
