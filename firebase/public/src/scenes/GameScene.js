@@ -46,7 +46,7 @@ class GameScene extends Phaser.Scene {
 
     preload() {
         this.load.image('ship', './assets/thrust_ship.png');
-        this.load.image('pipes', './assets/block6.png');
+        // this.load.image('pipes', './assets/block6.png');
         this.load.image('fire', './assets/flame2.png');
 
         this.load.image('space', './assets/space2.png')
